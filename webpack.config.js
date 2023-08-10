@@ -4,6 +4,9 @@ module.exports = {
   entry: './main.js',
   output: {
     path: __dirname,
-    filename: 'bundle.js'
+    filename: 'test-olgm-bundle.js'
   },
+  optimization: {
+    minimizer: [ false ]
+  }
 };
